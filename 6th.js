@@ -17,3 +17,9 @@ var number=[10,20,30,40,50,60,70,80,90,100];
 var removedNum1=number.pop();
 var removedNum2=number.pop();
 var removedNum3=number.pop();
+//shift 
+var shiftNum1=number.shift();
+var shiftNum2=number.shift();
+//unshift
+number.unshift(25);
+number.unshift(15);
