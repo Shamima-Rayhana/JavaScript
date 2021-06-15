@@ -14,3 +14,5 @@ var firstLetter=a[0];
 var find9thLetter=a[9-1];
 var lastLetter=a[lengthOfString-1];
 var thirdToLastLetter=a[lenghtOfString-3];
+//word blanks
+var sentance="It was really " + "hot" + ", and we " + "laughed" + " ourselves " + "silly" + ".";
