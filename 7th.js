@@ -61,3 +61,20 @@ function timesFive(num)
   return num*5;
 }
 timesFive(5);
+//Stand in Line
+function nextInLine(arr, item) {
+    arr.push(item);
+    item=arr.shift();
+    return item;
+    
+  
+  }
+  var testArr = [1,2,3,4,5];
+  
+  // Display code
+  document.write("Before: " + JSON.stringify(testArr));
+  //console.log("Before: " + JSON.stringify(testArr));
+  //console.log(nextInLine(testArr, 6));
+  //console.log("After: " + JSON.stringify(testArr));
+  document.write(nextInLine(testArr, 6));
+  document.write("After: " + JSON.stringify(testArr));
