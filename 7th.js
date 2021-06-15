@@ -12,6 +12,7 @@ function functionWithArgs(a,b)
   var sum=a+b;
   //console.log(sum);
   document.write("sum= ",sum);
+  document.write("<br>");
 }
 functionWithArgs(10,20);
 // Declare Global variable
@@ -32,4 +33,14 @@ function fun2() {
     output += " oopsGlobal: " + oopsGlobal;
   }
   document.write(output);
+  document.write("<br>");
 }
+fun2();
+//local variable
+function myTest() {
+    var loc = "foo";
+    //console.log(loc);
+    document.write(loc);
+    document.write("<br>");
+  }
+  myTest();
