@@ -9,3 +9,11 @@ var favourite=food[2][0];
 //modify array element
 food[1][1]=5;
 var totalBanana=food[1][1];
+//Array push
+tea.push="milk";
+food.push=["bread", 2];
+//Array pop
+var number=[10,20,30,40,50,60,70,80,90,100];
+var removedNum1=number.pop();
+var removedNum2=number.pop();
+var removedNum3=number.pop();
