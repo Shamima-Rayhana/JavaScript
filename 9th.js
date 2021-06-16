@@ -60,3 +60,34 @@ function caseInSwitch(val) {
   }
   
   switchOfStuff(1);
+  //switch statement with multiple option
+  function sequentialSizes(val) {
+    var answer = "";
+    switch(val) {
+    case 1:
+    case 2:
+    case 3:
+      answer = "Low";
+      document.write(answer);
+    document.write("<br>");
+      break;
+    case 4:
+    case 5:
+    case 6:
+      answer = "Mid";
+      document.write(answer);
+    document.write("<br>");
+      break;
+    case 7:
+    case 8:
+    case 9:
+      answer = "High";
+      document.write(answer);
+    document.write("<br>");
+      break;
+    }
+  
+    return answer;
+  }
+  
+  sequentialSizes(1);
