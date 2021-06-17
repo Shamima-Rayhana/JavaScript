@@ -35,3 +35,13 @@ var testObj = {
   
   var playerNumber=16;      
   var player = testObj[playerNumber];
+  //Updating Object Properties
+  // Setup
+var myDog = {
+    "name": "Coder",
+    "legs": 4,
+    "tails": 1,
+    "friends": ["everything!"]
+  };
+  
+  myDog.name="Happy Coder";
