@@ -52,3 +52,11 @@ function multiplyAll(arr) {
   }
   
   multiplyAll([[1,2],[3,4],[5,6,7]]);
+//Do...while loop
+  // Setup
+var myArray = [];
+var i = 10;
+do {
+  myArray.push(i);
+  i++;
+}while(i<11)
