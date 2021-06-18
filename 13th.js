@@ -49,3 +49,11 @@ function lookUpProfile(name, prop) {
 }
 
 lookUpProfile("Akira", "likes");
+//Generate Random Fractions with JavaScript
+function randomFraction() {
+
+  
+    return Math.random();
+
+  }
+  console.log(randomFraction);
