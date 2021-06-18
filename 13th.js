@@ -57,3 +57,9 @@ function randomFraction() {
 
   }
   console.log(randomFraction);
+//Generate Random Whole Numbers with JavaScriptPassed
+  function randomWholeNum() {
+
+  
+    return Math.floor(Math.random()*10);
+  }
